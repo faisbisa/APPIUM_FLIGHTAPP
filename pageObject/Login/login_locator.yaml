@@ -1,0 +1,4 @@
+inputUsername: //*[@id="com.example.myapplication:id/username"]
+inputPassword: //*[@id="com.example.myapplication:id/password"]
+buttonSignIn: //*[@id="com.example.myapplication:id/signIn"]
+verifyLogin: //*[@id="com.example.myapplication:id/textView"]

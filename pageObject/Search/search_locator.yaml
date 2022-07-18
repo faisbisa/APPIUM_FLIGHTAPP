@@ -1,0 +1,4 @@
+clickBook: com.example.myapplication:id/book
+InputFlightNumb: com.example.myapplication:id/flight_number
+ClickButton_search: com.example.myapplication:id/searchFlight
+verifySearch: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[1]

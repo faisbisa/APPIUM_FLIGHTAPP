@@ -1,0 +1,17 @@
+buttonBook_loc: com.example.myapplication:id/book
+fromCity_loc: com.example.myapplication:id/spinnerFrom
+select_fromCity: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]
+toCity_loc: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.Spinner[2]/android.widget.TextView
+select_toCity: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[2]
+class_loc: /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.LinearLayout/android.widget.Spinner[3]/android.widget.TextView
+select_class: /hierarchy/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.ListView/android.widget.TextView[1]
+startDate_loc: com.example.myapplication:id/textStartDate
+selectDate: //android.view.View[@content-desc="02 August 2019"]
+clickOK_loc: android:id/button1
+endDate_loc: com.example.myapplication:id/textEndDate
+selectEndDate: //android.view.View[@content-desc="03 August 2019"]
+buttonFlight_loc: com.example.myapplication:id/radioButtonFlight
+ClickbuttonBook_loc: com.example.myapplication:id/book_flight
+price_loc: com.example.myapplication:id/price1
+buttonConfirm_loc : com.example.myapplication:id/confirm_order
+verify_reservation: com.example.myapplication:id/checkedTextView

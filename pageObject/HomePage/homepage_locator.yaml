@@ -1,0 +1,4 @@
+logo_homepage: //*[@id="com.example.myapplication:id/imageView4"]
+mainImage_homepage: //*[@id="com.example.myapplication:id/imageView"]
+loginButton_homepage: //*[@id="com.example.myapplication:id/login"]
+username_homepage: //*[@id="com.example.myapplication:id/textView"]

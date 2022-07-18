@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220718 15:06:06.656" rpa="false" schemaversion="3">
+<suite id="s1" name="Login" source="C:\Users\admin\Documents\QA Engineer\APPIUM\Steps\login.robot">
+<test id="s1-t1" name="User Should Be Able Login with Valid data" line="11">
+<kw name="Open Flight Application" library="base" type="SETUP">
+<kw name="Open Application" library="AppiumLibrary">
+<arg>${REMOTE_URL}</arg>
+<arg>${PLATFORM_NAME}</arg>
+<arg>${PLATFORM_VERSION}</arg>
+<arg>${DEVICE_NAME}</arg>
+<arg>${APP_ACTIVITY}</arg>
+<arg>${APP_PACKAGE}</arg>
+<doc>Opens a new application to given Appium server.
+Capabilities of appium server, Android and iOS,
+Please check https://github.com/appium/appium/blob/master/docs/en/writing-running-appium/server-args.md
+| *Option*            | *Man.* | *Description*     |
+| remote_url          | Yes    | Appium server url |
+| alias               | no     | alias             |</doc>
+<msg timestamp="20220718 15:06:06.941" level="FAIL">Keyword 'AppiumLibrary.Open Application' expected 1 to 2 non-named arguments, got 6.</msg>
+<status status="FAIL" starttime="20220718 15:06:06.941" endtime="20220718 15:06:06.941"/>
+</kw>
+<status status="FAIL" starttime="20220718 15:06:06.941" endtime="20220718 15:06:06.941"/>
+</kw>
+<kw name="Close Application" library="AppiumLibrary" type="TEARDOWN">
+<doc>Closes the current application and also close webdriver session.</doc>
+<kw name="Capture Page Screenshot" library="AppiumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into the log.</doc>
+<msg timestamp="20220718 15:06:06.944" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20220718 15:06:06.943" endtime="20220718 15:06:06.996"/>
+</kw>
+<msg timestamp="20220718 15:06:06.997" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+<msg timestamp="20220718 15:06:06.998" level="FAIL">No application is open</msg>
+<status status="FAIL" starttime="20220718 15:06:06.942" endtime="20220718 15:06:06.999">No application is open</status>
+</kw>
+<doc>Test Case to User Should Be Able Login with Valid data</doc>
+<status status="FAIL" starttime="20220718 15:06:06.940" endtime="20220718 15:06:06.999">Setup failed:
+Keyword 'AppiumLibrary.Open Application' expected 1 to 2 non-named arguments, got 6.
+
+Also teardown failed:
+No application is open</status>
+</test>
+<doc>Login User</doc>
+<status status="FAIL" starttime="20220718 15:06:06.659" endtime="20220718 15:06:07.000"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Login">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20220718 15:06:06.997" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: No application is open</msg>
+</errors>
+</robot>
